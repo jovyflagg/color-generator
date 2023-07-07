@@ -6,7 +6,7 @@ import Values from 'values.js'
 function App() {
   const [color, setColor] = useState('');
   const [error, setError] = useState(false);
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(new Values('#f12345').all(10));
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <section className="container">
-        <h3>color genrator</h3>
+        <h3>color generator</h3>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -36,7 +36,11 @@ function App() {
       <section className="colors">
         {
         list.map((color,index)=>{
-          return <SingleColor key={index} {...color} index={index}/>
+          return <SingleColor 
+          key={index} 
+          {...color} 
+          index={index}
+          hexColor={color.hex}/>
         })
         }
       </section>
