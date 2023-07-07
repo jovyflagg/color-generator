@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/color-generator/static/css/main.073c9b0a.css",
-    "main.js": "/color-generator/static/js/main.6b14af3a.js",
-    "static/js/787.637e3034.chunk.js": "/color-generator/static/js/787.637e3034.chunk.js",
-    "static/media/logo.svg": "/color-generator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/color-generator/static/css/main.598d7b21.css",
+    "main.js": "/color-generator/static/js/main.2e260d62.js",
     "index.html": "/color-generator/index.html",
-    "main.073c9b0a.css.map": "/color-generator/static/css/main.073c9b0a.css.map",
-    "main.6b14af3a.js.map": "/color-generator/static/js/main.6b14af3a.js.map",
-    "787.637e3034.chunk.js.map": "/color-generator/static/js/787.637e3034.chunk.js.map"
+    "main.598d7b21.css.map": "/color-generator/static/css/main.598d7b21.css.map",
+    "main.2e260d62.js.map": "/color-generator/static/js/main.2e260d62.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6b14af3a.js"
+    "static/css/main.598d7b21.css",
+    "static/js/main.2e260d62.js"
   ]
 }
